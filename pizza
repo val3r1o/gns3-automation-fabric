@@ -1,0 +1,13 @@
+
+# 
+
+
+
+sudo apt upgrade
+sudo apt install net-tools
+sudo apt install openssh-server
+# sudo service ssh status
+sudo add-apt-repository ppa:gns3/ppa                             
+sudo apt install gns3-gui gns3-server
+sudo apt-get install konsole
+gns3

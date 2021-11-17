@@ -3,13 +3,12 @@
 From clean Ubuntu 20.04 to GNS3 running OS10 basic project
 
 
-sudo apt install git
+sudo apt install git<br>
+git clone https://github.com/val3r1o/gns3-automation-OS10fabric.git <br>
+cd gns3-automation-OS10fabric <br>
+sudo chmod 755 pizza.sh <br>
 
-git clone https://github.com/val3r1o/gns3-automation-OS10fabric.git
-cd gns3-automation-OS10fabric
-sudo chmod 755 pizza.sh
-
-#run the script
+#run the script </br>
 ./pizza.sh
 
 

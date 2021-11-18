@@ -14,9 +14,12 @@ sudo chmod 755 pizza.sh <br>
 
 # NOTES:
 
-IP set reach public internet </br>
+set DNS to reach public internet </br>
 DNS set to resolve repo </br>
-repo-> Main Server -> find the line of code to align the repository tot he right one!!!!!!!!!!!!
+
+move the file under the right folder:
+/home/XXXyournamexxx/GNS3/projects/
+
 
 on GNS3:<br>
 # 1
@@ -26,3 +29,9 @@ next->next->next (no changes) i.e., localhost -> TCP:3080 & /usr/bin/gns3server
 
 # 2
 edit->preferences-> console application -> edit: KDE/KONSOLE <- 
+
+#3
+Open the project evpn-simple-fabric, wait GNS3 to import. 
+
+run. 
+Have fun.

@@ -10,9 +10,10 @@ sudo add-apt-repository ppa:gns3/ppa
 sudo apt install gns3-gui gns3-server
 sudo apt-get install konsole
 
-wget https://www.dropbox.com/s/u29uly3b3vphyi6/evpn-simple-fabric.gns3project
-mkdir /home/valerio/GNS3/projects/evpn-simple-fabric
-sudo mv evpn-simple-fabric.gns3project /home/valerio/GNS3/projects/evpn-simple-fabric/evpn-simple-fabric.gns3
+wget https://www.dropbox.com/s/77n2mw3kp6q7gu8/single-leaf.gns3project?dl=0
+
+mkdir /home/valerio/GNS3/projects/single-leaf
+sudo mv single-leaf.gns3project /home/valerio/GNS3/projects/single-leaf/single-leaf.gns3
 
 echo ------------------------------------------------------------------------------------------------------
 echo ------------------ This is an automatic script -------------------------------------------------------

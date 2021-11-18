@@ -13,7 +13,7 @@ sudo apt-get install konsole
 wget https://www.dropbox.com/s/77n2mw3kp6q7gu8/single-leaf.gns3project
 
 mkdir /home/valerio/GNS3/projects/single-leaf
-sudo mv single-leaf.gns3project /home/valerio/GNS3/projects/single-leaf/single-leaf.gns3
+sudo mv single-leaf.gns3project /home/valerio/GNS3/projects/single-leaf/single-leaf.gns3project
 
 echo ------------------------------------------------------------------------------------------------------
 echo ------------------ This is an automatic script -------------------------------------------------------

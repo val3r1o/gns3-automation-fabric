@@ -17,14 +17,13 @@ sudo chmod 755 pizza.sh <br>
 set DNS to reach public internet </br>
 DNS set to resolve repo </br>
 
-move the file under the right folder:
+change the pizza.sh script to move the file under the right folder:
 /home/XXXyournamexxx/GNS3/projects/
 
-
-on GNS3:<br>
 # 1
 when prompted whether non-root users should be allowed to use wireshark and ubridge, select ‘Yes’ both times
-run GNS3 from GUI
+
+run GNS3 from Shell or GUI
 next->next->next (no changes) i.e., localhost -> TCP:3080 & /usr/bin/gns3server
 
 # 2

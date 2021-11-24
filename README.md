@@ -11,7 +11,7 @@ sudo chmod 755 install.sh <br>
 #run the script read:NOTE. first</br>
 ./install.sh
 
-run GNS3, open the project under /gns3-automation-OS10fabric</br>
+run GNS3, open the project under /gns3-automation-OS10fabric/single-leaf</br>
 
 
 # NOTES:

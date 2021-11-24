@@ -19,9 +19,6 @@ run GNS3, open the project under /gns3-automation-OS10fabric/single-leaf</br>
 set DNS to reach public internet </br>
 DNS set to resolve repo </br>
 
-change the install.sh script to move the file under the right folder:
-/home/XXXyournamexxx/GNS3/projects/
-
 # 1
 when prompted whether non-root users should be allowed to use wireshark and ubridge, select ‘Yes’ both times
 

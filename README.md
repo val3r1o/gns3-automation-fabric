@@ -2,14 +2,14 @@
 
 From clean Ubuntu 20.04 to GNS3 running OS10 basic project
 
-(sudo apt update)</br>
+sudo apt update</br>
 sudo apt install git<br>
 git clone https://github.com/val3r1o/gns3-automation-OS10fabric.git <br>
 cd gns3-automation-OS10fabric <br>
-sudo chmod 755 pizza.sh <br>
+sudo chmod 755 install.sh <br>
 
-#run the script </br>
-./pizza.sh
+#run the script read:NOTE. first</br>
+./install.sh
 
 
 # NOTES:
@@ -17,7 +17,7 @@ sudo chmod 755 pizza.sh <br>
 set DNS to reach public internet </br>
 DNS set to resolve repo </br>
 
-change the pizza.sh script to move the file under the right folder:
+change the install.sh script to move the file under the right folder:
 /home/XXXyournamexxx/GNS3/projects/
 
 # 1

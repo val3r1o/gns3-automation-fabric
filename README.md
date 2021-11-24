@@ -26,5 +26,6 @@ first run:  next->next->next (no changes) i.e., localhost -> TCP:3080 & /usr/bin
 if not able to consol on OS10
 edit->preferences-> console application -> edit: KDE/KONSOLE <- this package is already installed by the script.
 # 3
-Import (not open) the project wait GNS3 to import. 
+Import (not open) the project wait GNS3 to import.
+double check if the interfaces are correctly connected also on the OOB switch. 
 run the nodes.

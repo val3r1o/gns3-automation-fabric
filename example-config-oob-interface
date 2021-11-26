@@ -1,0 +1,10 @@
+# from CLI of OS10
+
+ZTD stop
+config
+interface mgmt 1/1/1
+no ip address dhcp
+ip address 10.10.10.2/24
+exit
+exit
+write memory

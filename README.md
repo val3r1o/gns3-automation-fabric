@@ -31,4 +31,3 @@ double check if the interfaces are correctly connected also on the OOB switch.
 run the nodes.
 OS10 usr/psw is standard admin/admin</br>
 Setup the mgmt interface to the preferred oob IP for your network. example config provided </br>
-Align those IP into Ansible inventory</br>

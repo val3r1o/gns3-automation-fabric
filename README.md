@@ -12,6 +12,7 @@ sudo chmod 755 install.sh <br>
 ./install.sh
 
 now, run GNS3 and import the project under /gns3-automation-OS10fabric/single-leaf</br>
+OS10 usr/psw is standard admin/admin
 
 Have fun.
 

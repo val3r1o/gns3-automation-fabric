@@ -9,7 +9,8 @@ sudo add-apt-repository ppa:gns3/ppa
 sudo apt install gns3-gui gns3-server
 sudo apt-get install konsole
 
-wget https://www.dropbox.com/s/77n2mw3kp6q7gu8/single-leaf.gns3project
+# wget https://www.dropbox.com/s/77n2mw3kp6q7gu8/single-leaf.gns3project
+wget https://www.dropbox.com/s/kpdmw13yykho4jm/single-leaf-linux.gns3project?dl=0
 
 echo ------------------------------------------------------------------------------------------------------
 echo ------------------ This is an automatic script -------------------------------------------------------

@@ -29,6 +29,6 @@ edit->preferences-> console application -> edit: KDE/KONSOLE <- this package is 
 Import (not open) the project wait GNS3 to import.
 double check if the interfaces are correctly connected also on the OOB switch. 
 run the nodes.
-OS10 usr/psw is standard admin/admin
-Setup the mgmt interface to the preferred oob IP for your network.
-Align those IP into Ansible inventory
+OS10 usr/psw is standard admin/admin</br>
+Setup the mgmt interface to the preferred oob IP for your network. example config provided </br>
+Align those IP into Ansible inventory</br>

@@ -4,7 +4,7 @@ ZTD stop
 config
 interface mgmt 1/1/1
 no ip address dhcp
-ip address 10.10.10.2/24
+ip address 10.10.10.11/24
 exit
 exit
 write memory
@@ -13,7 +13,7 @@ ZTD stop
 config
 interface mgmt 1/1/1
 no ip address dhcp
-ip address 10.10.10.3/24
+ip address 10.10.10.12/24
 exit
 exit
 write memory

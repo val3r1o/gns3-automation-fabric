@@ -13,6 +13,8 @@ sudo chmod 755 install.sh <br>
 
 now, run GNS3 and import the project under /gns3-automation-OS10fabric/single-leaf</br>
 
+Seems a reboot is needed.
+
 Have fun.
 
 # NOTES:

@@ -1,4 +1,4 @@
-# gns3-automation-OS10fabric
+# GNS3 Automation OS10 fabric
 
 From clean Ubuntu desktop 20.04 to GNS3 running OS10 basic project
 

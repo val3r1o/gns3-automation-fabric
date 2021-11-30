@@ -13,8 +13,7 @@ sudo chmod 755 install.sh <br>
 
 now, run GNS3 and import the project under /gns3-automation-OS10fabric</br>
 do not use "sudo gns3" just "gns3" 
-
-Seems a reboot is needed.
+Seems a reboot is needed to refresh user-permission ref: new project "uBridge is not available" error.
 
 Have fun.
 

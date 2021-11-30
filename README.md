@@ -3,7 +3,6 @@
 From clean Ubuntu desktop 20.04 to GNS3 running OS10 basic project
 
 sudo apt update</br>
-sudo apt upgrade</br>
 sudo apt install git<br>
 git clone https://github.com/val3r1o/gns3-automation-OS10fabric.git <br>
 cd gns3-automation-OS10fabric <br>

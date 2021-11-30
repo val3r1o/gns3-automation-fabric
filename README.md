@@ -18,7 +18,7 @@ Seems a reboot is needed to refresh user-permission ref: new project "uBridge is
 Have fun.
 
 # NOTES:
-Set DNS to reach public internet </br>
+Able  to reach public internet </br>
 DNS set to resolve repo </br>
 # 1
 When prompted whether non-root users should be allowed to use wireshark and ubridge, select ‘Yes’ both times</br>

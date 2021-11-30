@@ -12,9 +12,8 @@ sudo apt-get install konsole
 # fix oob port and ubuntu all-in-one reachability
 wget https://www.dropbox.com/s/1dl86jern3g5zrb/simple-leaf-ubuntuhost.gns3project
 
-#virbr0 should have been created by GNS3 installation. change IP address and down/up
-sudo ifconfig virbr0 down
-sudo ifconfig virbr0 10.10.10.1 netmask 255.255.255.0 up
+#virbr0 should have been created by GNS3 installation. change IP address to align internal IP's
+sudo mv gns3-automation-OS10fabric/default.xml /etc/libvirt/qemu/networks/
 
 echo ------------------------------------------------------------------------------------------------------
 echo ------------------ This is an automatic script -------------------------------------------------------

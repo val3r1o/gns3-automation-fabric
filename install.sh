@@ -10,7 +10,7 @@ sudo apt install gns3-gui gns3-server
 sudo apt-get install konsole
 
 # fix oob port and ubuntu all-in-one reachability
-wget https://www.dropbox.com/s/1dl86jern3g5zrb/simple-leaf-ubuntuhost.gns3project?dl=0
+wget https://www.dropbox.com/s/1dl86jern3g5zrb/simple-leaf-ubuntuhost.gns3project
 
 echo ------------------------------------------------------------------------------------------------------
 echo ------------------ This is an automatic script -------------------------------------------------------

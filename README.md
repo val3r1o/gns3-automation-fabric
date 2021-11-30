@@ -11,7 +11,7 @@ sudo chmod 755 install.sh <br>
 #run the script</br>
 ./install.sh
 
-now, run GNS3 and import the project under /gns3-automation-OS10fabric/single-leaf</br>
+now, run GNS3 and import the project under /gns3-automation-OS10fabric</br>
 do not use "sudo gns3" just "gns3" 
 
 Seems a reboot is needed.

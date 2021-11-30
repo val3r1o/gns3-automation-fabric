@@ -29,6 +29,6 @@ Import (not open) the project wait GNS3 to import </br>
 Double check if the interfaces are correctly connected also on the OOB switch </br>
 Run the nodes!! 
 # 3
-if not able to consol on OS10: edit->preferences-> console application -> edit: KDE/KONSOLE <- this package is already installed by the script.
-OS10 usr/psw is standard admin/admin</br>
+If not able to consol on OS10: edit->preferences-> console application -> edit: KDE/KONSOLE <- this package is already installed by the script</br>
+OS10 usr/psw is standard admin/admin </br>
 Setup the mgmt interface to the preferred oob IP for your network. example config provided </br>

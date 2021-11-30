@@ -19,7 +19,7 @@ Seems a reboot is needed.
 Have fun.
 
 # NOTES:
-set DNS to reach public internet </br>
+Set DNS to reach public internet </br>
 DNS set to resolve repo </br>
 # 1
 When prompted whether non-root users should be allowed to use wireshark and ubridge, select ‘Yes’ both times</br>
@@ -33,3 +33,4 @@ Run the nodes!!
 If not able to consol on OS10: edit->preferences-> console application -> edit: KDE/KONSOLE <- this package is already installed by the script</br>
 OS10 usr/psw is standard admin/admin </br>
 Setup the mgmt interface to the preferred oob IP for your network. example config provided </br>
+All configs and script/inventory are aligned. should all work out-of-the-box

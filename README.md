@@ -20,8 +20,7 @@ do not use "sudo gns3" just "gns3"
 Have fun.
 
 # NOTES:
-Able  to reach public internet </br>
-DNS set to resolve repo </br>
+Pre-requisites: Able to reach public internet and valid DNS set to resolve repo </br>
 # 1
 When prompted whether non-root users should be allowed to use wireshark and ubridge, select ‘Yes’ both times</br>
 Run GNS3 from Shell or GUI </br>

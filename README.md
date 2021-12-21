@@ -1,6 +1,7 @@
 # GNS3 Automation OS10 fabric
 
-From clean Ubuntu desktop 20.04 to GNS3 running OS10 basic project
+This project aims to create a fully working GNS3 environment with dell OS10 NOS project preloaded and working </br>
+From clean Ubuntu desktop 20.04 to GNS3 running OS10 basic project</br>
 
 sudo apt update</br>
 sudo apt -y install git<br>

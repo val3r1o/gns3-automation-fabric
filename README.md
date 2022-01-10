@@ -35,3 +35,9 @@ If not able to consol on OS10: edit->preferences-> console application -> edit: 
 OS10 usr/psw is standard admin/admin </br>
 Setup the mgmt interface to the preferred oob IP for your network. example config provided </br>
 All configs and script/inventory are aligned. should all work out-of-the-box
+
+
+
+
+![image](https://user-images.githubusercontent.com/20860769/148770138-122bf4ab-c831-4e31-9f4a-26b94cd25755.png)
+

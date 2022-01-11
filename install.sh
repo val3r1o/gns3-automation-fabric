@@ -12,9 +12,7 @@ sudo apt -y install konsole
 #virbr0 should have been created by GNS3 installation. This change IP address making a new config file
 sudo mv default.xml /etc/libvirt/qemu/networks/
 
-# download an example project
-#wget https://www.dropbox.com/s/1dl86jern3g5zrb/simple-leaf-ubuntuhost.gns3project
-#new
+# download an example project (new no OOB issue)
 wget https://www.dropbox.com/s/k461f8dov3wpf9s/1Single-Rack-OS10.gns3project
 
 echo

@@ -21,13 +21,13 @@ select opt in "${options[@]}"
 do
     case $opt in
         "OS10")
-            echo "YOU CHOSE OS10 TO PLAY WITH"
+            echo "YOU CHOSE TO PLAY WITH OS10"
             # download an example project (new no OOB issue)
             wget https://www.dropbox.com/s/k461f8dov3wpf9s/1Single-Rack-OS10.gns3project
             break
             ;;
         "SONiC")
-            echo "YOU COSE SONiC TO PLAY WITH"
+            echo "YOU CHOSE TO PLAY WITH SONiC"
             wget https://www.dropbox.com/s/orthzy45byq9qk5/SONiC-Full-Fabric.gns3project
             break
             ;;

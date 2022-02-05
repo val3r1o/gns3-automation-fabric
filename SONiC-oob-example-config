@@ -1,0 +1,18 @@
+# ON LEAF 1
+
+sudo ztp disable -y
+sonic-cli
+config
+interface Management 0
+ip address 10.10.10.11/24 gwaddr 10.10.10.1
+exit
+exit
+write memory
+
+# REPET FOR
+leaf 2 -> 10.10.10.12
+leaf 3 -> 10.10.10.13
+leaf 4 -> 10.10.10.14
+spine1 -> 10.10.10.21
+spine2 -> 10.10.10.22 
+

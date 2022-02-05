@@ -42,3 +42,7 @@ All configs and script/inventory are aligned. should all work out-of-the-box
 
 ![image](https://user-images.githubusercontent.com/20860769/148770138-122bf4ab-c831-4e31-9f4a-26b94cd25755.png)
 
+or
+
+![image](https://user-images.githubusercontent.com/20860769/152649793-a94e6a17-c25e-4301-8653-88f60742bbb6.png)
+

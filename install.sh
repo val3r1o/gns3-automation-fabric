@@ -16,18 +16,20 @@ sudo mv default.xml /etc/libvirt/qemu/networks/
 echo "OPTIONS: 1 = Leaf-Pair OS10 - 2 = Full Fabric SONiC "
 echo "OS10  is fully configured Node 5GB vs SONiC is first run 800MB"
 
-options=("Option 1" "Option 2")
+options=("OS10" "SONiC")
 select opt in "${options[@]}"
 do
     case $opt in
-        "Option 1")
-            echo "you chose OS10 to play"
+        "OS10")
+            echo "YOU CHOSE OS10 TO PLAY WITH"
             # download an example project (new no OOB issue)
             wget https://www.dropbox.com/s/k461f8dov3wpf9s/1Single-Rack-OS10.gns3project
+            break
             ;;
-        "Option 2")
-            echo "you chose SONiC to play"
+        "SONiC")
+            echo "YOU COSE SONiC TO PLAY WITH"
             wget https://www.dropbox.com/s/orthzy45byq9qk5/SONiC-Full-Fabric.gns3project
+            break
             ;;
     esac
 done

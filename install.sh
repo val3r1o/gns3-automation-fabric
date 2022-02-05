@@ -34,8 +34,6 @@ do
     esac
 done
 
-# download an example project (new no OOB issue)
-#wget https://www.dropbox.com/s/k461f8dov3wpf9s/1Single-Rack-OS10.gns3project
 
 echo
 echo ------------------------------------------------------------------------------------------------------
@@ -47,3 +45,24 @@ echo ---------------------------------------------------------------------------
 echo ------------------------------------------------- Dell NETWORKING ------------------------------------
 echo -----------------valerio.martini@gmail.com------------------------------------------------------------
 echo ------------------------------------------------------------------------------------------------------
+
+
+
+
+echo "You need to reboot"
+
+options=("reboot" "stay")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "reboot")
+            echo "Reboot now"
+            sudo reboot -h now
+            ;;
+        "stay")
+            echo "you need to reboot manually to refresh user permission for GNS3"
+            break
+            ;;
+    esac
+done
+

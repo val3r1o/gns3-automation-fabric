@@ -5,7 +5,7 @@ From clean Ubuntu desktop 20.04 to GNS3 running OS10/SONiC basic project</br>
 
 sudo apt update</br>
 sudo apt -y install git<br>
-git clone https://github.com/val3r1o/gns3-automation-OS10fabric.git <br>
+git clone https://github.com/val3r1o/gns3-automation-fabric.git <br>
 cd gns3-automation-fabric <br>
 sudo chmod 755 install.sh <br>
 ls </br>

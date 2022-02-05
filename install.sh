@@ -13,8 +13,8 @@ sudo apt -y install konsole
 sudo mv default.xml /etc/libvirt/qemu/networks/
 #
 
-echo "OPTIONS: 1 = Leaf-Pair OS10 - 2 = Full Fabric SONiC " </br>
-echo "OS10  is fully configured Node 5GB vs SONiC is first run 800MB" </br>
+echo "OPTIONS: 1 = Leaf-Pair OS10 - 2 = Full Fabric SONiC "
+echo "OS10  is fully configured Node 5GB vs SONiC is first run 800MB"
 
 options=("Option 1" "Option 2")
 select opt in "${options[@]}"

@@ -1,12 +1,12 @@
-# GNS3 Automation OS10 fabric
+# GNS3 Automation OS10/SONiC fabric
 
-This project aims to create a fully working GNS3 environment with Dell OS10 NOS project preloaded and working </br>
-From clean Ubuntu desktop 20.04 to GNS3 running OS10 basic project</br>
+This project aims to create a fully working GNS3 environment with Dell OS10 or SONiC preloaded NOS </br>
+From clean Ubuntu desktop 20.04 to GNS3 running OS10/SONiC basic project</br>
 
 sudo apt update</br>
 sudo apt -y install git<br>
 git clone https://github.com/val3r1o/gns3-automation-OS10fabric.git <br>
-cd gns3-automation-OS10fabric <br>
+cd gns3-automation-fabric <br>
 sudo chmod 755 install.sh <br>
 ls </br>
 
@@ -15,7 +15,7 @@ ls </br>
 
 A reboot is needed to refresh user-permission ref: new project "uBridge is not available" error.
 
-Now, run GNS3 and import the project under /gns3-automation-OS10fabric</br>
+Now, run GNS3 and import the project under /gns3-automation-fabric</br>
 do not use "sudo gns3" just "gns3" 
 
 Have fun.
@@ -31,8 +31,9 @@ Import (not open) the project wait GNS3 to import </br>
 Double check if the interfaces are correctly connected also on the OOB switch </br>
 Run the nodes!! 
 # 3
-If not able to consol on OS10: edit->preferences-> console application -> edit: KDE/KONSOLE <- this package is already installed by the script</br>
+If not able to consol in: edit->preferences-> console application -> edit: KDE/KONSOLE <- this package is already installed by the script</br>
 OS10 usr/psw is standard admin/admin </br>
+SONiC usr/psw is standard admin/YourPaSsWoRd
 Setup the mgmt interface to the preferred oob IP for your network. example config provided </br>
 All configs and script/inventory are aligned. should all work out-of-the-box
 

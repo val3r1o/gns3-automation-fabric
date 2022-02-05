@@ -27,7 +27,7 @@ do
             ;;
         "Option 2")
             echo "you chose SONiC to play"
-            wget https://www.dropbox.com/---SONiC-- LINK
+            wget https://www.dropbox.com/s/orthzy45byq9qk5/SONiC-Full-Fabric.gns3project
             ;;
     esac
 done

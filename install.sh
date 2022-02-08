@@ -12,6 +12,9 @@ sudo apt -y install konsole
 #virbr0 should have been created by GNS3 installation. This change IP address making a new config file
 sudo mv default.xml /etc/libvirt/qemu/networks/
 #
+echo
+echo
+echo
 
 echo "OPTIONS: 1 = Leaf-Pair OS10 - 2 = Full Fabric SONiC "
 echo "OS10  is fully configured Node 5GB vs SONiC is first run 800MB"

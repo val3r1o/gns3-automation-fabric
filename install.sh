@@ -69,4 +69,3 @@ do
     esac
 done
 
-https://www.dropbox.com/s/kt6t6bzxod0h4k7/Enterprise_SONiC_OS_4.0.1_gns3.zip

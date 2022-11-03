@@ -32,7 +32,6 @@ do
         "SONiC")
             echo "YOU CHOSE TO PLAY WITH SONiC"
             wget https://www.dropbox.com/s/orthzy45byq9qk5/SONiC-Full-Fabric.gns3project
-            # https://www.dropbox.com/s/ilsuiwzfe7zy9wv/Democenter-Project%20valerio.gns3project
             break
             ;;
     esac

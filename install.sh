@@ -16,6 +16,9 @@ echo
 echo
 echo
 
+# wireshark permission to get call from GNS3 directly
+sudo chmod a+rwx /usr/bin/dumpcap
+
 echo "OPTIONS: 1 = Leaf-Pair OS10 - 2 = Full Fabric SONiC "
 echo "OS10  is fully configured Node 5GB vs SONiC is first run 800MB"
 

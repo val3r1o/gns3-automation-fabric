@@ -22,7 +22,7 @@ sudo chmod a+rwx /usr/bin/dumpcap
 echo "OPTIONS: 1 = Leaf-Pair OS10 - 2 = Full Fabric SONiC "
 echo "OS10  is fully configured Node 5GB vs SONiC is first run 800MB"
 
-options=("OS10" "SONiC")
+options=("OS10" "SONiC" "OS10 & SONiC")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -35,6 +35,12 @@ do
         "SONiC")
             echo "YOU CHOSE TO PLAY WITH SONiC"
             wget https://www.dropbox.com/s/w8zug3bbka3wg1o/Simple-SONiC-Leaf-default.gns3project
+            break
+            ;;
+        "OS10 & SONiC")
+            echo "YOU CHOSE TO PLAY WITH BOTH"
+            wget https://www.dropbox.com/s/w8zug3bbka3wg1o/Simple-SONiC-Leaf-default.gns3project && wget https://www.dropbox.com/s/k461f8dov3wpf9s/1Single-Rack-OS10.gns3project
+           
             break
             ;;
     esac
